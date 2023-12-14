@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-kirill-пользователь-e",
+  "editForm": "i-i-s-proekt-kirill-пользователь-e",
+  "external": false,
+  "caption": "Пользователь",
+  "name": "IISProekt_kirillПользовательL",
+  "className": "ПользовательL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-пользователь",
+      "modelProjection": "ПользовательL"
+    }
+  ]
+}

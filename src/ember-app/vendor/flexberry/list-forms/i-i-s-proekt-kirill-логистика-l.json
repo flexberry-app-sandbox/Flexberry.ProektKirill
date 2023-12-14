@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-kirill-логистика-e",
+  "editForm": "i-i-s-proekt-kirill-логистика-e",
+  "external": false,
+  "caption": "Логистика",
+  "name": "IISProekt_kirillЛогистикаL",
+  "className": "ЛогистикаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-логистика",
+      "modelProjection": "ЛогистикаL"
+    }
+  ]
+}

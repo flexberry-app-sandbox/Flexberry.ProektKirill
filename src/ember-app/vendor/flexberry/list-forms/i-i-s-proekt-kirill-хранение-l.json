@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-kirill-хранение-e",
+  "editForm": "i-i-s-proekt-kirill-хранение-e",
+  "external": false,
+  "caption": "Хранение",
+  "name": "IISProekt_kirillХранениеL",
+  "className": "ХранениеL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-хранение",
+      "modelProjection": "ХранениеL"
+    }
+  ]
+}

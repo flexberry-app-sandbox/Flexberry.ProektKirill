@@ -1,0 +1,89 @@
+﻿{
+  "name": "IISProekt_kirillЯчейка",
+  "modelName": "i-i-s-proekt-kirill-ячейка",
+  "className": "Ячейка",
+  "nameSpace": "IIS.Proekt_kirill",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерЯчейки",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "хранение",
+      "relatedTo": "i-i-s-proekt-kirill-хранение",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "постамат",
+      "relatedTo": "i-i-s-proekt-kirill-постамат",
+      "inverse": "ячейка"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЯчейкаE",
+      "modelName": "i-i-s-proekt-kirill-ячейка",
+      "attrs": [
+        {
+          "name": "номерЯчейки",
+          "caption": "Номер ячейки",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Продления",
+          "lookupValueField": "продления",
+          "relationName": "Хранение",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "продления",
+              "caption": "Продления",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "датаНачала",
+              "caption": "Дата начала",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "датаЗавершения",
+              "caption": "Дата завершения",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Хранение",
+          "name": "хранение",
+          "relatedTo": "i-i-s-proekt-kirill-хранение",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

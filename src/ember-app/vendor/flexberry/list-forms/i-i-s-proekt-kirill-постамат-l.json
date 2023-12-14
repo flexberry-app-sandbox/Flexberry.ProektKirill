@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-kirill-постамат-e",
+  "editForm": "i-i-s-proekt-kirill-постамат-e",
+  "external": false,
+  "caption": "Постамат",
+  "name": "IISProekt_kirillПостаматL",
+  "className": "ПостаматL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-постамат",
+      "modelProjection": "ПостаматL"
+    }
+  ]
+}

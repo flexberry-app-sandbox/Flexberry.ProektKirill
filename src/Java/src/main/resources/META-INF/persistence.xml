@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Proekt_kirill.model.YAchejka</class>
+        <class>Proekt_kirill.model.Posylka</class>
+        <class>Proekt_kirill.model.Xranenie</class>
+        <class>Proekt_kirill.model.Tranzakciya</class>
+        <class>Proekt_kirill.model.Logistika</class>
+        <class>Proekt_kirill.model.Postamat</class>
+        <class>Proekt_kirill.model.SluzhbaDostavki</class>
+        <class>Proekt_kirill.model.Polzovatel</class>
+        <class>Proekt_kirill.model.FlexberryAdvLimit</class>
+        <class>Proekt_kirill.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Proekt_kirill.model.NewPlatformFlexberryServicesLock</class>
+        <class>Proekt_kirill.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

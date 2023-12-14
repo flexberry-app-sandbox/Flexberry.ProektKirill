@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Proekt_kirill",
+  "applicationTitle": "Proekt_kirill",
+  "items": [
+    {
+      "link": null,
+      "menuName": "proekt-kirill",
+      "caption": "Proekt_kirill",
+      "title": "Proekt_kirill",
+      "children": [
+        {
+          "link": "i-i-s-proekt-kirill-хранение-l",
+          "menuName": null,
+          "caption": "Хранение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-kirill-транзакция-l",
+          "menuName": null,
+          "caption": "Транзакция",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-kirill-логистика-l",
+          "menuName": null,
+          "caption": "Логистика",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-kirill-постамат-l",
+          "menuName": null,
+          "caption": "Постамат",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-kirill-служба-доставки-l",
+          "menuName": null,
+          "caption": "Служба доставки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-proekt-kirill-пользователь-l",
+          "menuName": null,
+          "caption": "Пользователь",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

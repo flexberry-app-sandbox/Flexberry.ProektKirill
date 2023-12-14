@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "транзакция",
+      "displayAttributeName": "время",
+      "required": true,
+      "relationName": "Посылка.Транзакция",
+      "projection": "ТранзакцияL",
+      "detailModelName": "i-i-s-proekt-kirill-посылка"
+    },
+    {
+      "master": "логистика",
+      "displayAttributeName": "информация",
+      "required": true,
+      "relationName": "Посылка.Логистика",
+      "projection": "ЛогистикаL",
+      "detailModelName": "i-i-s-proekt-kirill-посылка"
+    }
+  ],
+  "external": false,
+  "caption": "Хранение",
+  "name": "IISProekt_kirillХранениеE",
+  "className": "ХранениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-хранение",
+      "modelProjection": "ХранениеE"
+    }
+  ]
+}

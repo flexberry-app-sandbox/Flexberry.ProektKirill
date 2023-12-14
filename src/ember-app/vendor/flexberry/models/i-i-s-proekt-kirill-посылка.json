@@ -1,0 +1,139 @@
+﻿{
+  "name": "IISProekt_kirillПосылка",
+  "modelName": "i-i-s-proekt-kirill-посылка",
+  "className": "Посылка",
+  "nameSpace": "IIS.Proekt_kirill",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номер",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "логистика",
+      "relatedTo": "i-i-s-proekt-kirill-логистика",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "транзакция",
+      "relatedTo": "i-i-s-proekt-kirill-транзакция",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "хранение",
+      "relatedTo": "i-i-s-proekt-kirill-хранение",
+      "inverse": "посылка"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПосылкаE",
+      "modelName": "i-i-s-proekt-kirill-посылка",
+      "attrs": [
+        {
+          "name": "номер",
+          "caption": "Номер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Время",
+          "lookupValueField": "время",
+          "relationName": "Транзакция",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Транзакция.Пользователь",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фИО",
+                  "caption": "ФИО",
+                  "hidden": false,
+                  "index": 7
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "пользователь",
+              "relatedTo": "i-i-s-proekt-kirill-пользователь",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "время",
+              "caption": "Время",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 5
+            },
+            {
+              "name": "дата",
+              "caption": "Дата",
+              "hidden": false,
+              "index": 6
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Транзакция",
+          "name": "транзакция",
+          "relatedTo": "i-i-s-proekt-kirill-транзакция",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Информация",
+          "lookupValueField": "информация",
+          "relationName": "Логистика",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "информация",
+              "caption": "Информация",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Логистика",
+          "name": "логистика",
+          "relatedTo": "i-i-s-proekt-kirill-логистика",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

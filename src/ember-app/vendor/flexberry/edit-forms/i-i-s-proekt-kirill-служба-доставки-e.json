@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Служба доставки",
+  "name": "IISProekt_kirillСлужбаДоставкиE",
+  "className": "СлужбаДоставкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-служба-доставки",
+      "modelProjection": "СлужбаДоставкиE"
+    }
+  ]
+}

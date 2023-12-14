@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proekt_kirill.Objects", "Objects/Proekt_kirill.Objects.csproj", "0f6755bd-4b7e-436d-ba0f-0cb5bd503e55"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proekt_kirill.Tests", "Tests/Proekt_kirill.Tests.csproj", "d3ac4e6e-e34f-4251-8491-66bb86921bfe"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proekt_kirill.ODataBackend", "ODataBackend/Proekt_kirill.ODataBackend.csproj", "dd24c086-2847-4066-94df-aec781ce5dbc"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proekt_kirill.IntegrationTests", "IntegrationTests/Proekt_kirill.IntegrationTests.csproj", "53ff4528-6c78-44a4-b283-946dcb4fad02"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		0f6755bd-4b7e-436d-ba0f-0cb5bd503e55.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0f6755bd-4b7e-436d-ba0f-0cb5bd503e55.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0f6755bd-4b7e-436d-ba0f-0cb5bd503e55.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0f6755bd-4b7e-436d-ba0f-0cb5bd503e55.Release|Any CPU.Build.0 = Release|Any CPU
+		d3ac4e6e-e34f-4251-8491-66bb86921bfe.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d3ac4e6e-e34f-4251-8491-66bb86921bfe.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d3ac4e6e-e34f-4251-8491-66bb86921bfe.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d3ac4e6e-e34f-4251-8491-66bb86921bfe.Release|Any CPU.Build.0 = Release|Any CPU
+		dd24c086-2847-4066-94df-aec781ce5dbc.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		dd24c086-2847-4066-94df-aec781ce5dbc.Debug|Any CPU.Build.0 = Debug|Any CPU
+		dd24c086-2847-4066-94df-aec781ce5dbc.Release|Any CPU.ActiveCfg = Release|Any CPU
+		dd24c086-2847-4066-94df-aec781ce5dbc.Release|Any CPU.Build.0 = Release|Any CPU
+		53ff4528-6c78-44a4-b283-946dcb4fad02.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		53ff4528-6c78-44a4-b283-946dcb4fad02.Debug|Any CPU.Build.0 = Debug|Any CPU
+		53ff4528-6c78-44a4-b283-946dcb4fad02.Release|Any CPU.ActiveCfg = Release|Any CPU
+		53ff4528-6c78-44a4-b283-946dcb4fad02.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

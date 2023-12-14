@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-proekt-kirill-служба-доставки-e",
+  "editForm": "i-i-s-proekt-kirill-служба-доставки-e",
+  "external": false,
+  "caption": "Служба доставки",
+  "name": "IISProekt_kirillСлужбаДоставкиL",
+  "className": "СлужбаДоставкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-proekt-kirill-служба-доставки",
+      "modelProjection": "СлужбаДоставкиL"
+    }
+  ]
+}
